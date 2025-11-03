@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dulce Tentación - Repostería Artesanal</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffd1dc, #c1f0f6, #fff5ba, #c3b1e1);
+      background-size: 400% 400%;
+      animation: gradient 10s ease infinite;
+      margin: 0;
+      color: #4a2c2a;
+    }
+    @keyframes gradient {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+    header {
+      background-color: #ff99c8;
+      text-align: center;
+      padding: 2rem;
+      color: white;
+      text-shadow: 2px 2px #ff577f;
+    }
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .postre {
+      background-color: #ffffffcc;
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      border: 4px solid #ffc4d6;
+    }
+    .postre:hover {
+      transform: scale(1.05);
+    }
+    .postre img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 3px solid #ff99c8;
+    }
+    .contenido {
+      padding: 1rem;
+      text-align: center;
+    }
+    .contenido h2 {
+      color: #ff577f;
+      margin: 0.5rem 0;
+    }
+    .precio {
+      font-weight: bold;
+      color: #6a0572;
+      font-size: 1.2rem;
+    }
+    footer {
+      background-color: #ffb6b9;
+      text-align: center;
+      padding: 1.5rem;
+      color: #4a2c2a;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #6a0572;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍰 sabor dulce 🍩</h1>
+    <p>Repostería artesanal con amor y sabor casero</p>
+  </header>
+
+  <section class="menu">
+    <div class="postre">
+      <img src="img/pastel de chococo.................jpg" alt="Pastel de Chocolate">
+      <div class="contenido">
+        <h2>Pastel de Chocolate</h2>
+        <p>Ingredientes: cacao, harina, huevos, mantequilla, azúcar, esencia de vainilla.</p>
+        <p class="precio">$15.00 USD</p>
+      </div>
+    </div>
+
+    <div class="postre">
+      <img src="img/cup cake.jpg" alt="Cupcakes">
+      <div class="contenido">
+        <h2>Cupcakes</h2>
+        <p>Ingredientes: harina, mantequilla, azúcar, crema, frosting y decoraciones coloridas.</p>
+        <p class="precio">$3.00 USD c/u</p>
+      </div>
+    </div>
+
+    <div class="postre">
+      <img src="img/flan.jpg" alt="Flan">
+      <div class="contenido">
+        <h2>Flan</h2>
+        <p>Ingredientes: leche condensada, huevos, azúcar caramelizada, vainilla.</p>
+        <p class="precio">$4.50 USD</p>
+      </div>
+    </div>
+
+    <div class="postre">
+      <img src="img/brownie.jpg" alt="Brownie de Chocolate">
+      <div class="contenido">
+        <h2>Brownie de Chocolate</h2>
+        <p>Ingredientes: cacao, nueces, mantequilla, harina, azúcar morena.</p>
+        <p class="precio">$3.50 USD</p>
+      </div>
+    </div>
+
+    <div class="postre">
+      <img src="img/chispa de cholatini.jpg" alt="Galletas con Chispas de Chocolate">
+      <div class="contenido">
+        <h2>Galletas con Chispas de Chocolate</h2>
+        <p>Ingredientes: harina, mantequilla, azúcar, chispas de chocolate, vainilla.</p>
+        <p class="precio">$1.50 USD c/u</p>
+      </div>
+    </div>
+
+    <div class="postre">
+      <img src="img/tarta de frutas.jpg" alt="Tarta de Frutas">
+      <div class="contenido">
+        <h2>Tarta de Frutas</h2>
+        <p>Ingredientes: masa quebrada, crema pastelera, frutas frescas variadas.</p>
+        <p class="precio">$10.00 USD</p>
+      </div>
+    </div>
+
+    <div class="postre">
+      <img src="img/cheesecake.jpg" alt="Cheesecake">
+      <div class="contenido">
+        <h2>Cheesecake</h2>
+        <p>Ingredientes: queso crema, galletas, mantequilla, azúcar, mermelada de fresa.</p>
+        <p class="precio">$12.00 USD</p>
+      </div>
+    </div>
+
+    <div class="postre">
+      <img src="img/donas.jpg" alt="Donas">
+      <div class="contenido">
+        <h2>Donas</h2>
+        <p>Ingredientes: harina, levadura, azúcar, glaseado de colores y sprinkles.</p>
+        <p class="precio">$2.00 USD c/u</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>sabor dulce</strong> | Tel: +1 (505) 2121-2828 | Email: contacto@sabordulcesv.com</p>
+    <p>Ubicación: canton las lomitas, Caserio el pital, Pakistan.</p>
+    <p>Síguenos en 
+      <a href="#">Instagram</a> | 
+      <a href="#">Facebook</a> | 
+      <a href="#">TikTok</a>
+    </p>
+  </footer>
+</body>
+</html>
+2..
